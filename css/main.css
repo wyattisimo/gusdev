@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+  font-family: 'Baloo Tammudu 2', sans-serif;
+  font-size: 14pt;
+  line-height: 18pt;
+  color: #666666;
+  background-color: #e9e6e1;
+}
+p {
+  margin: 18px 0;
+}
+b {
+  font-weight: 700;
+}
+a {
+  color: #2b475c;
+}
+.logo-container {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 1;
+	text-align: center;
+}
+.logo-container img {
+	height: 256px;
+	width: auto;
+}
+.logo-container .info {
+  margin-top: 60px;
+}
